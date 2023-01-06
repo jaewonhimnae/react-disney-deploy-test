@@ -73,11 +73,11 @@ const Nav = () => {
   return (
     <NavWrapper show={show}>
       <Logo>
-        <img
+        {/* <img
           alt="Disney Plus logo"
           src="/images/logo.svg"
           onClick={() => (window.location.href = "/")}
-        />
+        /> */}
       </Logo>
       {pathname === '/' ? (
         <Login onClick={handleAuth}>Login</Login>
